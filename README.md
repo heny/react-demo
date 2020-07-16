@@ -40,7 +40,7 @@ npm Scripts 说明:
 │   ├── index.js                    # 入口文件
 │   ├── components                  # 公用的组件
 │   │   └── ant                     # antd外部组件引用
-│   │   └── dumb                    # 自定义的木偶组件
+│   │   └── hoc                     # 高阶组件
 │   ├── layouts                     # 布局
 │   │   └── Basic                   # 基础布局
 │   │   └── Blank                   # 空布局
@@ -50,7 +50,7 @@ npm Scripts 说明:
 │   │   └── index.js                # 整合Model, 生成Store
 │   ├── utils                       #
 │   │   └── constant.js             # 枚举值
-│   │   └── util.js                # 公共方法
+│   │   └── util.js                 # 公共方法
 │   │   └── request.js              # 请求封装
 │   │   └── theme.js                # 覆盖 antd 的样式变量
 │   └── routes.js                   # 页面路由
