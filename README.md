@@ -30,7 +30,6 @@ npm Scripts 说明:
 
 ```
 .
-├── dist                            # 打包生成的文件
 ├── public                          # 静态资源
 ├── scripts                         # 存储一些项目用到的脚本
 │   ├── wp.config.base.js           # webpack 基础配置
@@ -55,5 +54,5 @@ npm Scripts 说明:
 │   │   └── request.js              # 请求封装
 │   │   └── theme.js                # 覆盖 antd 的样式变量
 │   └── routes.js                   # 页面路由
-└── e2e                             # 自动化测试
+└── dist                            # 打包生成的文件
 ```
