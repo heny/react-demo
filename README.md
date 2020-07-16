@@ -48,7 +48,7 @@ npm Scripts 说明:
 │   │   └── models.js               # 页面注册model
 │   ├── store                       # Redux 的 Store
 │   │   └── index.js                # 整合Model, 生成Store
-│   ├── utils                       #
+│   ├── helper                      #
 │   │   └── constant.js             # 枚举值
 │   │   └── util.js                 # 公共方法
 │   │   └── request.js              # 请求封装
